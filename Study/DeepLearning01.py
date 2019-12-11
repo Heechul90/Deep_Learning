@@ -35,7 +35,7 @@ model.add(Dense(1, activation = 'sigmoid'))                #
 
 
 # 딥러닝 컴파일
-model.compile(loss = 'binary_crossentropy',
+model.compile(loss = 'mean_squared_error',
               optimizer = 'adam',
               metrics = ['accuracy'])
 
