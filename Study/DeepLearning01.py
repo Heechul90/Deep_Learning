@@ -36,12 +36,12 @@ model.add(Dense(1, activation = 'sigmoid'))                #
 
 
 # 딥러닝 컴파일
-model.compile(loss = 'mean_squared_error',
+model.compile(loss = 'binary_crossentropy',
               optimizer = 'adam',
               metrics = ['accuracy'])
 
 # 모델 실행
 # epochs: 학습 프로세스가 모든 샘플에 대해 한 번 실행되는 것을 1epoch
 # batch_size: 샘플을 한번에 몇 개씩 처리할지를 정하는 부분
-model.fit(X, Y, epochs = 30, batch_size = 10)
+model.fit(X, Y, epochs = 500, batch_size = 10)
 
