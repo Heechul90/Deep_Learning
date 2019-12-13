@@ -21,8 +21,7 @@ data_set.shape
 # 환자의 기록과 수술 결과를 X와 Y로 구분
 X = data_set[:, 0:17]
 Y = data_set[:, 17]
-X.shape
-Y.shape
+
 
 # 딥러닝 구조를 결정(모델을 설정하고 실행하는 부분)
 # 딥러닝은 퍼셉트론 위에 숨겨진 퍼셉트론 층을 차곡차곡 추가하는 형태
@@ -32,11 +31,11 @@ Y.shape
 
 model = Sequential()                                       # Sequential() 함수를 model로 선언
 model.add(Dense(30, input_dim = 17, activation = 'relu'))  # model.add로 층을 추가, Dense 함수로 30개의 노드생성
-model.add(Dense(1, activation = 'sigmoid'))                #
+model.add(Dense(1, activation = 'sigmoid'))                # model.add로 층을 추가 , Dense 함수로 1개 노드 생성
 
 
 # 딥러닝 컴파일
-model.compile(loss = 'binary_crossentropy',
+model.compile(loss = 'mean_squared_error',
               optimizer = 'adam',
               metrics = ['accuracy'])
 
