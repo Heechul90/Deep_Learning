@@ -8,9 +8,8 @@ import tensorflow as tf
 import pandas as pd
 
 # 데이터 불러오기
-raw_data = pd.read_csv('dataset1/pima-indians-diabetes.csv',
-                       names = ['pregnant', 'plasma', 'pressure', 'thickness',
-                                'insulin', 'BMI', 'pedigree', 'age', 'class'])
+raw_data = pd.read_csv('dataset1/iris.csv',
+                       names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
 data = raw_data.copy()
 
 
@@ -18,34 +17,14 @@ data = raw_data.copy()
 data.head()
 data.info()
 data.describe()
-data[['pregnant', 'class']]
-data[['plasma', 'class']]
-
-
-# 데이터 가공하기
-data[['pregnant', 'class']].groupby(['pregnant'], as_index = False).mean().sort_values(by = 'pregnant', ascending = True)
-
 
 
 # 데이터 시각화하기
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-plt.figure(figsize = (12, 12))
-sns.heatmap(data.corr(),
-            linewidths = 0.1,
-            vmax = 0.5,                 # 색상의 밝기를 조절하는 인자
-            cmap = plt.cm.gist_heat,    # 미리 정해진 matplotlib 색상의 설정값
-            linecolor = 'white',
-            annot = True)
+sns.pairplot(data, hue = 'species')
 plt.show()
-
-
-# plasma(포도당 부하 검사 2시간 후 공복 혈당 농도(mm Hg))와 class와 관계
-grid = sns.FacetGrid(data, col = 'class')
-grid.map(plt.hist, 'plasma', bins = 10)
-plt.show()
-
 
 
 #######################################################################
@@ -54,32 +33,54 @@ seed = 0
 np.random.seed(seed)
 tf.set_random_seed(seed)
 
+
 # 데이터 불러오기
-dataset = np.loadtxt('dataset1/pima-indians-diabetes.csv',
-                     delimiter = ',')
+raw_data = pd.read_csv('dataset1/iris.csv',
+                       names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
+df = raw_data.copy()
 
+dataset = df.values
 dataset.shape
-X = dataset[:, 0:8]
-Y = dataset[:, 8]
 
 
-# 모델 설정
-# 입력층 8
-# 은닉층 노드 12개, 활성화 함수: 렐루
-# 은닉층 노드 8개, 활성화 함수: 렐루
-# 출력층 노드 1개, 활성화 함수: 시그모이드
+X = dataset[:, :4].astype(float)
+Y = dataset[:, 4]
+
+
+# 원-핫 인코딩
+from sklearn.preprocessing import LabelEncoder
+
+e = LabelEncoder()
+e.fit(Y)
+Y = e.transform(Y)
+
+# 0, 1로 변환
+from keras.utils import np_utils
+Y_encoded = np_utils.to_categorical(Y)
+
+
+# 모델 설계
+# 입력층: 노드 4개
+# 은닉층1: 노드 16개, 렐루
+# 은닉층2: 노드 8개, 렐루
+# 출력층: 노드3개, 소프트맥스
 model = Sequential()
-model.add(Dense(30, input_dim = 8, activation = 'relu'))
-model.add(Dense(20, activation = 'relu'))
-model.add(Dense(1, activation = 'sigmoid'))
+model.add(Dense(16, input_dim = 4, activation = 'relu'))
+model.add(Dense(8, activation = 'relu'))
+model.add(Dense(3, activation = 'softmax'))
+
 
 # 모델 컴파일
-model.compile(loss = 'binary_crossentropy',
+model.compile(loss = 'categorical_crossentropy',
               optimizer = 'adam',
               metrics = ['accuracy'])
 
+
 # 모델 실행
-model.fit(X, Y, epochs = 200, batch_size = 10)
+model.fit(X, Y_encoded,
+          epochs = 50,
+          batch_size = 1)
+
 
 # 결과 출력
-print("\n Accuracy: %.4f" % (model.evaluate(X, Y)[1]))
+print('\ Accuracy: %.4f' % (model.evaluate(X, Y_encoded)[1]))
