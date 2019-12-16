@@ -35,7 +35,7 @@ model.add(Dense(1, activation = 'sigmoid'))                # model.add로 층을
 
 
 # 딥러닝 컴파일
-model.compile(loss = 'mean_squared_error',
+model.compile(loss = 'binary_crossentropy',
               optimizer = 'adam',
               metrics = ['accuracy'])
 
