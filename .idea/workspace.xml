@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c895ca-d518-4ffc-be0c-28d1f5a4b365" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch01/img_show.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch01/img_show.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch02/xor_gate.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch02/xor_gate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/gradient_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/gradient_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch04/train_neuralnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch04/train_neuralnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mxnet.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +12,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch03/mnist_show.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mxnet.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -52,6 +53,7 @@
         <option value="$PROJECT_DIR$/ch04/train_neuralnet.py" />
         <option value="$PROJECT_DIR$/ch01/img_show.py" />
         <option value="$PROJECT_DIR$/ch02/xor_gate.py" />
+        <option value="$PROJECT_DIR$/mxnet.py" />
       </list>
     </option>
   </component>
@@ -66,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,25 +75,11 @@
               <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="ch03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +119,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14640592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -415,9 +401,12 @@
     <entry file="file://$PROJECT_DIR$/ch03/mnist_show.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mxnet.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
