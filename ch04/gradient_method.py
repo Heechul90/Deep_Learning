@@ -1,7 +1,7 @@
 # coding: utf-8
 import numpy as np
 import matplotlib.pylab as plt
-from gradient_2d import numerical_gradient
+from ch04.gradient_2d import numerical_gradient
 
 
 def gradient_descent(f, init_x, lr=0.01, step_num=100):
