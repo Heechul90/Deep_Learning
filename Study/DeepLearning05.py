@@ -18,7 +18,7 @@ tf.set_random_seed(seed)
 
 
 # 데이터 불러오기
-data = pd.read_csv('dataset1/wine.csv', header=None)
+data = pd.read_csv('dataset1/wine.csv', header = None)
 data = data.sample(frac = 1)
 
 # 데이터 내용 확인하기

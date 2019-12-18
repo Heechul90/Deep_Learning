@@ -18,7 +18,6 @@ data.head()
 data.info()
 data.describe()
 
-
 # 데이터 시각화하기
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -37,9 +36,9 @@ tf.set_random_seed(seed)
 # 데이터 불러오기
 raw_data = pd.read_csv('dataset1/iris.csv',
                        names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'])
-df = raw_data.copy()
+data = raw_data.copy()
 
-dataset = df.values
+dataset = data.values
 dataset.shape
 
 

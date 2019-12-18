@@ -17,13 +17,19 @@ tf.set_random_seed(seed)
 
 
 # 데이터 불러오기
-df = pd.read_csv('dataset1/sonar.csv', header=None)
-df
+raw_data = pd.read_csv('dataset1/sonar.csv', header = None)
+data = raw_data.copy()
 
-dataset = df.values
+
+# 데이터 내용 확인하기
+data.head()
+data.info()
+data.describe()
+
+dataset = data.values
 X = dataset[:,0:60]
 Y_obj = dataset[:,60]
-
+X.shape
 
 
 # 원-핫 인코딩
@@ -33,6 +39,7 @@ Y = e.transform(Y_obj)
 
 # 학습셋과 테스트셋을 나눔
 from sklearn.model_selection import train_test_split
+
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3, random_state = seed)
 
 X_train.shape
