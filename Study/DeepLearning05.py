@@ -32,13 +32,6 @@ dataset = data.values
 X = dataset[:,0:12]
 Y = dataset[:,12]
 
-# 학습셋과 테스트셋을 나눔
-from sklearn.model_selection import train_test_split
-
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3, random_state = seed)
-X_train.shape
-X_test.shape
-
 
 # 모델 설계하기
 model = Sequential()
@@ -61,16 +54,16 @@ MODEL_DIR = 'Study/model1/'
 if not os.path.exists(MODEL_DIR):
     os.mkdir(MODEL_DIR)
 
-modelpath = "Study/model1/{epoch:02d}-{val_loss:.4f}.hdf5"
+modelpath = "Study/model1/{epoch:02d}-{val_loss:.4f}.hdf5"  # 에폭횟수-오차.hdf5
 
 
 # 모델 업데이트 및 저장
 from keras.callbacks import ModelCheckpoint
 
 checkpointer = ModelCheckpoint(filepath = modelpath,
-                               monitor = 'val_loss',
-                               verbose = 1,
-                               save_best_only = True)
+                               monitor = 'val_loss',     # 테스트셋의 오차
+                               verbose = 1,              # 해당함수의 진행 사항 출력
+                               save_best_only = True)    # 오차가 줄어들었을때만 저장
 
 
 # 학습 자동 중단 설정
@@ -106,4 +99,4 @@ plt.plot(x_len, y_acc, 'o', c = 'blue', markersize = 3)
 
 
 # 결과 출력
-print('\ Accuracy: %.4f' % (model.evaluate(X_test, Y_test)[1]))
+print('\ Accuracy: %.4f' % (model.evaluate(X, Y)[1]))

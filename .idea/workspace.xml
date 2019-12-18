@@ -2,7 +2,136 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c895ca-d518-4ffc-be0c-28d1f5a4b365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mxnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/DeepLearning05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/DeepLearning05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/01-0.3756.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/02-0.3275.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/03-0.2937.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/03-0.2937.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/04-0.2671.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/04-0.2671.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/05-0.2423.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/05-0.2423.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/06-0.2228.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/06-0.2228.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/07-0.2083.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/07-0.2083.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/08-0.2006.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/08-0.2006.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/09-0.1936.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/10-0.1921.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/101-0.0727.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/101-0.0727.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/102-0.0714.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/103-0.0707.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/103-0.0707.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/105-0.0699.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/105-0.0699.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/109-0.0692.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/11-0.1856.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/112-0.0666.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/116-0.0665.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/117-0.0649.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/117-0.0649.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/119-0.0643.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/12-0.1843.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/12-0.1843.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/120-0.0638.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/121-0.0634.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/128-0.0622.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/13-0.1833.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/130-0.0619.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/133-0.0607.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/134-0.0600.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/137-0.0591.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/137-0.0591.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/138-0.0587.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/14-0.1786.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/141-0.0586.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/142-0.0579.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/143-0.0569.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/153-0.0566.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/154-0.0557.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/160-0.0539.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/165-0.0537.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/17-0.1739.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/176-0.0535.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/179-0.0531.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/18-0.1721.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/181-0.0527.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/184-0.0516.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/184-0.0516.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/187-0.0515.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/19-0.1697.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/190-0.0513.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/193-0.0505.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/20-0.1669.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/208-0.0499.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/208-0.0499.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/21-0.1637.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/216-0.0494.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/22-0.1610.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/224-0.0490.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/224-0.0490.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/23-0.1565.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/239-0.0486.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/24-0.1553.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/249-0.0475.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/25-0.1546.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/26-0.1516.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/262-0.0475.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/272-0.0468.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/272-0.0468.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/28-0.1494.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/288-0.0460.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/29-0.1466.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/31-0.1455.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/32-0.1417.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/324-0.0460.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/325-0.0455.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/33-0.1401.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/34-0.1384.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/352-0.0454.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/357-0.0452.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/36-0.1370.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/366-0.0450.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/37-0.1346.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/37-0.1346.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/379-0.0446.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/38-0.1332.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/385-0.0446.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/389-0.0445.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/39-0.1331.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/394-0.0444.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/40-0.1315.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/41-0.1282.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/41-0.1282.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/42-0.1271.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/42-0.1271.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/425-0.0442.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/426-0.0439.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/44-0.1249.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/44-0.1249.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/446-0.0437.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/45-0.1226.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/47-0.1218.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/484-0.0437.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/484-0.0437.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/49-0.1177.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/50-0.1172.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/50-0.1172.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/52-0.1169.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/520-0.0436.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/527-0.0431.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/54-0.1138.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/55-0.1112.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/557-0.0429.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/56-0.1106.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/56-0.1106.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/57-0.1091.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/57-0.1091.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/58-0.1086.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/58-0.1086.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/62-0.1032.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/624-0.0420.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/63-0.1029.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/63-0.1029.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/64-0.1008.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/66-0.0992.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/67-0.0990.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/69-0.0982.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/70-0.0960.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/703-0.0419.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/707-0.0415.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/707-0.0415.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/71-0.0946.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/719-0.0413.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/73-0.0937.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/73-0.0937.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/74-0.0931.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/77-0.0901.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/77-0.0901.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/81-0.0895.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/82-0.0864.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/82-0.0864.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/84-0.0847.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/86-0.0846.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/86-0.0846.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/87-0.0827.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/88-0.0814.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/90-0.0806.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/92-0.0795.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/94-0.0755.hdf5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/model1/98-0.0729.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/Study/model1/98-0.0729.hdf5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Study/정리/Deep Learning03.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/Study/정리/Deep Learning03.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,17 +142,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch03/mnist_show.py">
+        <entry file="file://$PROJECT_DIR$/Study/DeepLearning02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="172">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#30#65#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mxnet.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Study/DeepLearning05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+              <folding>
+                <element signature="e#30#77#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -47,13 +186,13 @@
         <option value="$PROJECT_DIR$/Study/DeepLearning02.py" />
         <option value="$PROJECT_DIR$/Study/DeepLearning03.py" />
         <option value="$PROJECT_DIR$/Study/DeepLearning04.py" />
-        <option value="$PROJECT_DIR$/Study/DeepLearning05.py" />
         <option value="$PROJECT_DIR$/Lecture/Chapter07.py" />
         <option value="$PROJECT_DIR$/ch04/gradient_method.py" />
         <option value="$PROJECT_DIR$/ch04/train_neuralnet.py" />
         <option value="$PROJECT_DIR$/ch01/img_show.py" />
         <option value="$PROJECT_DIR$/ch02/xor_gate.py" />
         <option value="$PROJECT_DIR$/mxnet.py" />
+        <option value="$PROJECT_DIR$/Study/DeepLearning05.py" />
       </list>
     </option>
   </component>
@@ -74,6 +213,11 @@
             <path>
               <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Deep_Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Deep_Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="Study" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,6 +263,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14640592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -131,25 +276,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.37416482" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.21937639" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Study/DeepLearning02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" selection-start-line="50" selection-end-line="55" />
-          <folding>
-            <element signature="e#30#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Study/DeepLearning03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -176,16 +311,6 @@
           <caret line="69" selection-start-line="69" selection-end-line="74" selection-end-column="63" />
           <folding>
             <element signature="e#30#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/DeepLearning05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3564">
-          <caret line="108" column="63" lean-forward="true" selection-start-line="108" selection-start-column="63" selection-end-line="108" selection-end-column="63" />
-          <folding>
-            <element signature="e#30#77#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -398,6 +523,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mxnet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch03/mnist_show.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -405,8 +533,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mxnet.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Study/DeepLearning02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#30#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/DeepLearning05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="e#30#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
