@@ -94,7 +94,7 @@ history = model.fit(X, Y,
 # model = load_model('Study/model1/1015-0.0393.hdf5')
 
 # 결과 출력
-print('\ Accuracy: %.4f' % (model.evaluate(X_test, Y_test)[1]))
+# print('\ Accuracy: %.4f' % (model.evaluate(X_test, Y_test)[1]))
 
 
 # y_vloss에 테스트셋으로 실험 결과의 오차 값을 저장
@@ -111,5 +111,7 @@ import matplotlib.pyplot as plt
 x_len = np.arange(len(y_acc))
 plt.plot(x_len, y_vloss, 'o', c = 'red', markersize = 3)
 plt.plot(x_len, y_acc, 'o', c = 'blue', markersize = 3)
+
+
 
 
