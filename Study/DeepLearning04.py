@@ -53,6 +53,7 @@ X_test.shape
 model = Sequential()
 model.add(Dense(24, input_dim = 60, activation = 'relu'))
 model.add(Dense(10, activation = 'relu'))
+model.add(Dense(10, activation = 'relu'))
 model.add(Dense(1, activation = 'sigmoid'))
 
 
