@@ -68,6 +68,11 @@ model.add(Dense(16, input_dim = 4, activation = 'relu'))
 model.add(Dense(8, activation = 'relu'))
 model.add(Dense(3, activation = 'softmax'))
 
+# softmax
+# 총합이 1인 형태로 바꿔서 계산해 주는 함수
+# 함수의 식에 따라 [1. , 0., 0.]으로 변환
+# 즉 원-핫 인코딩 값으로 전환
+
 
 # 모델 컴파일
 model.compile(loss = 'categorical_crossentropy',
