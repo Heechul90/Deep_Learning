@@ -18,7 +18,8 @@ tf.set_random_seed(seed)
 
 
 # 데이터 불러오기
-data = pd.read_csv('dataset1/wine.csv', header = None)
+raw_data = pd.read_csv('dataset1/wine.csv', header = None)
+data = raw_data.copy()
 data = data.sample(frac = 1)
 
 # 데이터 내용 확인하기
@@ -31,6 +32,11 @@ data.describe()
 dataset = data.values
 X = dataset[:,0:12]
 Y = dataset[:,12]
+
+# # 학습셋과 테스트셋을 나눔
+# from sklearn.model_selection import train_test_split
+#
+# X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3, random_state = seed)
 
 
 # 모델 설계하기
@@ -81,6 +87,15 @@ history = model.fit(X, Y,
                     verbose = 0,
                     callbacks = [early_stopping_callback, checkpointer])
 
+# # 테스트를 위해 메모리 내의 모델을 삭제
+# del model
+#
+# # 모델을 새로 불러옴
+# model = load_model('Study/model1/1015-0.0393.hdf5')
+
+# 결과 출력
+print('\ Accuracy: %.4f' % (model.evaluate(X_test, Y_test)[1]))
+
 
 # y_vloss에 테스트셋으로 실험 결과의 오차 값을 저장
 y_vloss = history.history['val_loss']
@@ -98,5 +113,3 @@ plt.plot(x_len, y_vloss, 'o', c = 'red', markersize = 3)
 plt.plot(x_len, y_acc, 'o', c = 'blue', markersize = 3)
 
 
-# 결과 출력
-print('\ Accuracy: %.4f' % (model.evaluate(X, Y)[1]))

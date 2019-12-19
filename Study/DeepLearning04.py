@@ -28,19 +28,19 @@ data.describe()
 
 dataset = data.values
 X = dataset[:,0:60]
-Y_obj = dataset[:,60]
+Y = dataset[:,60]
 X.shape
 
 
 # 원-핫 인코딩
 e = LabelEncoder()
-e.fit(Y_obj)
-Y = e.transform(Y_obj)
+e.fit(Y)
+Y_encoded = e.transform(Y)
 
 # 학습셋과 테스트셋을 나눔
 from sklearn.model_selection import train_test_split
 
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3, random_state = seed)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y_encoded, test_size = 0.3, random_state = seed)
 
 X_train.shape
 X_test.shape
@@ -52,7 +52,6 @@ X_test.shape
 # 출력층: 노드3개, 소프트맥스
 model = Sequential()
 model.add(Dense(24, input_dim = 60, activation = 'relu'))
-model.add(Dense(10, activation = 'relu'))
 model.add(Dense(10, activation = 'relu'))
 model.add(Dense(1, activation = 'sigmoid'))
 
@@ -68,16 +67,6 @@ model.fit(X_train, Y_train,
           epochs = 130,
           batch_size = 5)
 
-# 모델을 컴퓨터에 저장
-model.save('Study/my_model.h5')
-
-
-# 테스트를 위해 메모리 내의 모델을 삭제
-del model
-
-# 모델을 새로 불러옴
-model = load_model('Study/my_model.h5')
-
-
 # 결과 출력
+print('\ Accuracy: %.4f' % (model.evaluate(X_train, Y_train)[1]))
 print('\ Accuracy: %.4f' % (model.evaluate(X_test, Y_test)[1]))
