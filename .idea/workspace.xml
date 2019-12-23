@@ -1,119 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3c895ca-d518-4ffc-be0c-28d1f5a4b365" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Study/DeepLearning06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/01-0.3803.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/02-0.3295.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/03-0.2950.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/04-0.2678.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/05-0.2429.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/06-0.2233.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/07-0.2066.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/08-0.2018.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/09-0.1933.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/10-0.1907.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/102-0.0714.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/103-0.0708.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/107-0.0692.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/11-0.1862.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/110-0.0669.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/113-0.0664.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/116-0.0656.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/118-0.0646.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/12-0.1834.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/121-0.0645.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/123-0.0645.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/125-0.0641.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/128-0.0638.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/129-0.0624.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/13-0.1817.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/131-0.0621.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/134-0.0607.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/14-0.1787.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/140-0.0607.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/141-0.0606.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/142-0.0579.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/153-0.0571.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/160-0.0562.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/163-0.0559.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/165-0.0557.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/17-0.1772.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/175-0.0557.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/18-0.1728.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/180-0.0556.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/185-0.0550.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/186-0.0545.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/189-0.0541.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/19-0.1711.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/193-0.0536.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/197-0.0528.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/208-0.0525.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/21-0.1698.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/219-0.0523.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/22-0.1664.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/225-0.0515.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/23-0.1646.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/24-0.1637.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/248-0.0508.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/26-0.1621.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/262-0.0505.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/264-0.0499.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/274-0.0488.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/28-0.1601.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/288-0.0485.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/29-0.1570.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/297-0.0481.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/31-0.1563.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/32-0.1517.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/33-0.1508.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/338-0.0477.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/34-0.1495.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/36-0.1469.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/367-0.0466.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/37-0.1442.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/38-0.1429.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/40-0.1414.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/41-0.1377.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/42-0.1364.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/434-0.0465.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/44-0.1341.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/45-0.1323.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/458-0.0458.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/46-0.1314.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/460-0.0452.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/47-0.1296.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/49-0.1263.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/50-0.1256.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/51-0.1251.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/515-0.0448.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/52-0.1235.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/527-0.0440.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/54-0.1205.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/55-0.1179.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/56-0.1157.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/57-0.1148.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/58-0.1140.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/61-0.1130.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/62-0.1080.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/63-0.1074.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/64-0.1006.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/66-0.0966.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/68-0.0951.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/70-0.0927.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/72-0.0906.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/73-0.0898.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/75-0.0883.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/80-0.0836.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/85-0.0803.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/86-0.0797.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/88-0.0784.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/93-0.0780.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/94-0.0752.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/97-0.0731.hdf5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Study/model1/98-0.0720.hdf5" beforeDir="false" />
-    </list>
+    <list default="true" id="d3c895ca-d518-4ffc-be0c-28d1f5a4b365" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576722685558</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I'm studying deep learning">
+      <created>1577080883830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577080883830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
