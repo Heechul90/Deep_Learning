@@ -12,12 +12,10 @@ import os
 import tensorflow as tf
 
 
-
 # seed 값 설정
 seed = 0
 numpy.random.seed(seed)
 tf.set_random_seed(seed)
-
 
 
 # 데이터 불러오기
