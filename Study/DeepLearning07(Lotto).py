@@ -83,3 +83,6 @@ model.fit(X, Y, epochs = 200, batch_size = 10)
 
 # 결과 출력
 print("\n Accuracy: %.4f" % (model.evaluate(X, Y)[1]))
+
+
+
