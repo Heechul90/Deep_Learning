@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c895ca-d518-4ffc-be0c-28d1f5a4b365" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Study/정리/Deep Learning01.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/정리/Deep Learning02.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/정리/Deep Learning03.pptx" beforeDir="false" />
@@ -11,6 +12,9 @@
       <change beforePath="$PROJECT_DIR$/Study/정리/~$Deep Learning04.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/정리/목차(설명).hwp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Study/정리/목차.hwp" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Study/DeepLearning07(Lotto).py" beforeDir="false" afterPath="$PROJECT_DIR$/Study/DeepLearning07(Lotto).py" afterDir="false" />
+>>>>>>> ef666eb436c8588c748fae476ef89d514c292fe0
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +24,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Study/DeepLearning07(Lotto).py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2607">
               <caret line="85" selection-start-line="85" selection-end-line="85" />
+=======
+            <state relative-caret-position="695">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+>>>>>>> ef666eb436c8588c748fae476ef89d514c292fe0
               <folding>
                 <element signature="e#30#65#0" expanded="true" />
               </folding>
@@ -35,7 +44,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Study/DeepLearning06.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-429">
+=======
+            <state relative-caret-position="300">
+>>>>>>> ef666eb436c8588c748fae476ef89d514c292fe0
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#30#62#0" expanded="true" />
@@ -83,16 +96,16 @@
         <option value="$PROJECT_DIR$/Study/DeepLearning04.py" />
         <option value="$PROJECT_DIR$/ch03/mnist_show.py" />
         <option value="$PROJECT_DIR$/ch07/apply_filter.py" />
-        <option value="$PROJECT_DIR$/Study/DeepLearning07(Lotto).py" />
         <option value="$PROJECT_DIR$/Study/DeepLearning06.py" />
+        <option value="$PROJECT_DIR$/Study/DeepLearning07(Lotto).py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="240" />
+    <option name="y" value="129" />
+    <option name="width" value="1440" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,7 +184,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+>>>>>>> ef666eb436c8588c748fae476ef89d514c292fe0
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14640592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -186,7 +203,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.042316258" />
+      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.042600896" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,22 +532,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/DeepLearning07(Lotto).py">
+    <entry file="file://$PROJECT_DIR$/Study/DeepLearning06.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2607">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
+=======
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+>>>>>>> ef666eb436c8588c748fae476ef89d514c292fe0
           <folding>
-            <element signature="e#30#65#0" expanded="true" />
+            <element signature="e#30#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Study/DeepLearning06.py">
+    <entry file="file://$PROJECT_DIR$/Study/DeepLearning07(Lotto).py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-429">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+=======
+        <state relative-caret-position="695">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+>>>>>>> ef666eb436c8588c748fae476ef89d514c292fe0
           <folding>
-            <element signature="e#30#62#0" expanded="true" />
+            <element signature="e#30#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
